@@ -1,0 +1,42 @@
+body{
+    font-size: 18px;
+    margin: 2% 10%;
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(229, 6%, 66%);
+}
+h1{
+    margin: 0;
+    color:hsl(234, 12%, 34%);
+}
+h3{
+    margin: 0;
+    color:hsl(234, 12%, 34%);
+}
+/* ******************************************Heading********************************************* */
+.heading{
+    width: 50%;
+    margin:auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.light{
+    font-weight: 200;
+}
+.dark{
+    font-weight: 600;
+}
+/* ******************************************Card Container********************************************* */
+.card-container{
+    display: flex;
+}
+.card{
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    -webkit-box-shadow: 10px 22px 47px -11px rgba(0,0,0,0.4);
+    -moz-box-shadow: 10px 22px 47px -11px rgba(0,0,0,0.4);
+    box-shadow: 10px 22px 47px -11px rgba(0,0,0,0.4);
+}
