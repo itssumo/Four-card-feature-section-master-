@@ -5,8 +5,8 @@
     --pl:25px;
 }
 body{
-    font-size: 16px;
-    margin: 2% 10%;
+    font-size: 1.1rem;
+    margin: 5% 10%;
     font-family: 'Poppins', sans-serif;
     background-color: hsl(0, 0%, 98%);
     color: hsl(229, 6%, 66%);
@@ -44,15 +44,12 @@ h3{
 .card{
     background-color: white;
     border-radius: var(--br1);
-    /* padding:0 30px 30px 30px; */
-    /* margin: 20px; */
     overflow: clip;
     -webkit-box-shadow: 10px 22px 47px -11px rgba(0,0,0,0.4);
     -moz-box-shadow: 10px 22px 47px -11px rgba(0,0,0,0.4);
     box-shadow: 10px 22px 47px -11px rgba(0,0,0,0.4);
 }
 .card p{
-    font-size:14px;
     padding: 0 var(--pr) var(--m1) var(--pl)  ;
 }
 .col{
@@ -78,3 +75,25 @@ hr{
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 /* ////////////////////////////////////// Mobile \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+@media only screen and (max-width: 720px) {
+    body {
+        margin: 10% 10%;
+        font-size: 0.8rem;
+    }
+    .heading{
+        width: 100%;
+        margin:auto;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .card-container{
+        flex-direction: column;
+    }
+    .col{
+        flex:1;
+        margin: 0;
+    }
+    .side{
+        margin: 0;
+    }
+  }
